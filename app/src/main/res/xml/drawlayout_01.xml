@@ -27,7 +27,7 @@
         <OnSwipe
             app:dragDirection="dragUp"
             app:touchAnchorId="@id/drawlayout"
-            app:touchAnchorSide="bottom"
+            app:touchAnchorSide="top"
             app:touchRegionId="@id/drawlayout" />
         <OnClick
             app:clickAction="toggle"

@@ -24,6 +24,16 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             "底部菜单",
             "滑动弹出底部菜单",
             R.layout.drawlayout_01
+        ),
+        DemosAdapter.Demo(
+            "折叠按钮",
+            "折叠按钮",
+            R.layout.motion_03
+        ),
+        DemosAdapter.Demo(
+            "测试-周期动画",
+            "上下跳动效果",
+            R.layout.motion_02
         )
     )
 

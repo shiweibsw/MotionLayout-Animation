@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             "Basic Example (1/3)",
             "Basic motion example using referenced ConstraintLayout files",
             R.layout.motion_01_basic
+        ),
+        DemosAdapter.Demo(
+            "底部菜单",
+            "滑动弹出底部菜单",
+            R.layout.drawlayout_01
         )
     )
 

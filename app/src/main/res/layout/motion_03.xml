@@ -14,7 +14,8 @@
         android:layout_margin="16dp"
         android:background="@drawable/circle_btn_bg"
         android:elevation="5dp"
-        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_menu_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -23,21 +24,22 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circle_btn_bg"
-        android:src="@drawable/ic_baseline_keyboard_arrow_up_24" />
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_share_24" />
 
     <ImageView
         android:id="@+id/iv3"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circle_btn_bg"
-        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
-        android:visibility="gone" />
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_favorite_24" />
 
     <ImageView
         android:id="@+id/iv4"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circle_btn_bg"
-        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
-        android:visibility="gone" />
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_grade_24" />
 </androidx.constraintlayout.motion.widget.MotionLayout>

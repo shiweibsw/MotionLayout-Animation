@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_04">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/circle_btn_bg"
+        android:elevation="5dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_btn_bg"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_share_24" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_btn_bg"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_btn_bg"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_grade_24" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -70,15 +70,5 @@
         <OnClick
             app:clickAction="toggle"
             app:targetId="@id/btn" />
-        <!--        <KeyFrameSet>-->
-        <!--            <KeyAttribute-->
-        <!--                android:alpha="0"-->
-        <!--                app:framePosition="100"-->
-        <!--                app:motionTarget="@id/btn" />-->
-        <!--            <KeyAttribute-->
-        <!--                android:alpha="1"-->
-        <!--                app:framePosition="90"-->
-        <!--                app:motionTarget="@id/btn" />-->
-        <!--        </KeyFrameSet>-->
     </Transition>
 </MotionScene>

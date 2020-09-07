@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_07">
+
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_accent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/m1"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_round_corner_primary" />
+
+    <FrameLayout
+        android:id="@+id/m2"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_round_corner_primary" />
+
+    <FrameLayout
+        android:id="@+id/m3"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_round_corner_primary" />
+
+    <FrameLayout
+        android:id="@+id/m4"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_round_corner_primary" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

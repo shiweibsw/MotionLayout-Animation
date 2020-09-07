@@ -23,9 +23,17 @@
     </ConstraintSet>
     <Transition
         app:constraintSetEnd="@id/end"
-        app:constraintSetStart="@id/start">
+        app:constraintSetStart="@id/start"
+        app:duration="3000">
+        <OnClick
+            app:clickAction="toggle"
+            app:targetId="@id/iv" />
         <KeyFrameSet>
-
+            <KeyTimeCycle
+                android:rotation="360"
+                app:motionTarget="@id/iv"
+                app:wavePeriod="1"
+                app:waveShape="sin" />
         </KeyFrameSet>
     </Transition>
 </MotionScene>

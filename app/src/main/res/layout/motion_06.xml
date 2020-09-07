@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     app:layoutDescription="@xml/scene_06">
 
-    <TextView
-        android:id="@+id/pbcenter"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:background="@drawable/pb_center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <ProgressBar
         android:id="@+id/pb"
@@ -32,13 +22,24 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_margin="20dp"
-        android:background="@drawable/circle_btn_bg"
-        android:text="登录"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:background="@drawable/pb_center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

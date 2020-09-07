@@ -12,13 +12,20 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </Constraint>
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
         <Constraint
             android:id="@id/pb"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:alpha="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -28,18 +35,26 @@
     <ConstraintSet android:id="@id/end">
         <Constraint
             android:id="@id/btn"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        </Constraint>
         <Constraint
             android:id="@id/pb"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:alpha="1.0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -55,15 +70,15 @@
         <OnClick
             app:clickAction="toggle"
             app:targetId="@id/btn" />
-        <KeyFrameSet>
-            <KeyAttribute
-                android:alpha="0"
-                app:framePosition="100"
-                app:motionTarget="@id/btn" />
-            <KeyAttribute
-                android:alpha="1"
-                app:framePosition="90"
-                app:motionTarget="@id/btn" />
-        </KeyFrameSet>
+        <!--        <KeyFrameSet>-->
+        <!--            <KeyAttribute-->
+        <!--                android:alpha="0"-->
+        <!--                app:framePosition="100"-->
+        <!--                app:motionTarget="@id/btn" />-->
+        <!--            <KeyAttribute-->
+        <!--                android:alpha="1"-->
+        <!--                app:framePosition="90"-->
+        <!--                app:motionTarget="@id/btn" />-->
+        <!--        </KeyFrameSet>-->
     </Transition>
 </MotionScene>

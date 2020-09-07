@@ -41,6 +41,11 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             R.layout.motion_05
         ),
         DemosAdapter.Demo(
+            "登录按钮",
+            "带加载进度的登录按钮",
+            R.layout.motion_06
+        ),
+        DemosAdapter.Demo(
             "测试-周期动画",
             "上下跳动效果",
             R.layout.motion_02

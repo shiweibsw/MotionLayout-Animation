@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             layoutManager = viewManager
             adapter = viewAdapter
         }
-
         showPaths.setOnCheckedChangeListener(this)
     }
 

@@ -16,6 +16,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -25,6 +27,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -34,6 +38,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -43,6 +49,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -52,6 +60,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -61,6 +71,8 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -71,7 +83,6 @@
             android:id="@id/iv1"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:rotation="100"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -81,47 +92,91 @@
             android:id="@id/iv2"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginLeft="92dp"
             android:alpha="1"
             android:rotation="360"
-            app:layout_constraintBottom_toBottomOf="@id/iv1"
-            app:layout_constraintLeft_toRightOf="@id/iv1" />
-        <!--        <Constraint-->
-        <!--            android:id="@id/iv3"-->
-        <!--            android:layout_width="56dp"-->
-        <!--            android:layout_height="56dp"-->
-        <!--            android:layout_marginEnd="20dp"-->
-        <!--            android:layout_marginRight="16dp"-->
-        <!--            android:layout_marginBottom="16dp"-->
-        <!--            android:alpha="1"-->
-        <!--            android:rotation="360"-->
-        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--            app:layout_constraintRight_toLeftOf="@id/iv2" />-->
-        <!--        <Constraint-->
-        <!--            android:id="@id/iv4"-->
-        <!--            android:layout_width="56dp"-->
-        <!--            android:layout_height="56dp"-->
-        <!--            android:layout_marginEnd="20dp"-->
-        <!--            android:layout_marginRight="16dp"-->
-        <!--            android:layout_marginBottom="16dp"-->
-        <!--            android:alpha="1"-->
-        <!--            android:rotation="360"-->
-        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--            app:layout_constraintRight_toLeftOf="@id/iv3" />-->
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/iv3"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:alpha="1"
+            android:rotation="360"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="36dp"
+            android:translationY="-62.352dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/iv4"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:alpha="1"
+            android:rotation="360"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="-36dp"
+            android:translationY="-62.352dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/iv5"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:alpha="1"
+            android:rotation="360"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="-72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/iv6"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:alpha="1"
+            android:rotation="360"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="-36dp"
+            android:translationY="62.352dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/iv7"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:alpha="1"
+            android:rotation="360"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:translationX="36dp"
+            android:translationY="62.352dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
     <Transition
         app:constraintSetEnd="@id/end"
         app:constraintSetStart="@id/start"
-        app:duration="2000">
+        app:duration="500">
         <OnClick
             app:clickAction="toggle"
             app:targetId="@id/iv1" />
-        <KeyFrameSet>
-            <KeyPosition
-                app:framePosition="50"
-                app:keyPositionType="pathRelative"
-                app:motionTarget="@id/iv2"
-                app:percentY="-0.25" />
-        </KeyFrameSet>
     </Transition>
 </MotionScene>

@@ -36,6 +36,8 @@ class DemoActivity : AppCompatActivity() {
             MotionLayout.DEBUG_SHOW_NONE
         }
         (container as? MotionLayout)?.setDebugMode(debugMode)
+        val motionLayout = container as? MotionLayout ?: return
+        motionLayout.progress = 0.5f
     }
 
     fun changeState(v: View?) {

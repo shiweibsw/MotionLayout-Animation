@@ -54,11 +54,6 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             "折叠抽屉",
             "折叠抽屉",
             R.layout.motion_08
-        ),
-        DemosAdapter.Demo(
-            "测试-周期动画",
-            "上下跳动效果",
-            R.layout.motion_02
         )
     )
 

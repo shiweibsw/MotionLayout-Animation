@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
     private lateinit var viewManager: RecyclerView.LayoutManager
     private var doShowPaths = false
 
+
     private val dataset: Array<DemosAdapter.Demo> = arrayOf(
         DemosAdapter.Demo(
             "Basic Example (1/3)",
